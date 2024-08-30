@@ -1,0 +1,11 @@
+.main-header{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(218, 218, 218);
+    font-size: small;
+    
+}   
+.main-header a{
+    color: #353232;
+    padding: 5px;
+}

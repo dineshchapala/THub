@@ -1,0 +1,43 @@
+
+<!-- <label for="nameInput">Enter Name</label>
+<input id= "nameInput" type="text" [(ngModel)]="firstName" placeholder="Enter First Name"/>
+<button (click)="onClick2()">Submit</button> &nbsp;
+<span *ngIf="onClick2">{{firstNameDisplay}}</span> -->
+
+
+
+<div class="product">
+<p> Name : {{product.item}}</p>
+<p> Model : {{product.model}}</p>
+<p> Price : {{product.price}}</p>
+<p>Add to Cart</p>
+<button (click) = "quantityDecrement()">-</button> {{addToCart}} <button (click) = "quantityIncrement()">+</button>
+<button id="submit-btn" [disabled]="!(stock)">Buy now</button>
+</div>
+
+<!-- <div [attr.aria-hidden]="false">
+    <ul>
+      <li>Option 1</li>
+      <li>Option 2</li>
+      <li>Option 3</li>
+    </ul>
+  </div> -->
+
+  <!-- <input (input) = "onEnterPass($event)" >
+  {{Epassword}} -->
+  
+
+
+
+<!-- <div  class="submit">
+    <label for="nameInput">Enter Name</label>
+    <input id="nameInput" type="text" [(ngModel)]="name" placeholder="Enter your name "/>
+    <button (click)="onClick()">submit</button>
+</div>
+
+<div>
+    <h3>Names List:</h3>
+    <div *ngFor = "let name of namesList">
+        {{name}}
+       </div>
+</div> -->
