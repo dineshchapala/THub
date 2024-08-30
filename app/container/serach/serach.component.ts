@@ -9,7 +9,7 @@ export class SerachComponent {
   searchText: string= '';
   searchedValue: string= '';
   updateSearchText(event: any){
-    this.searchedValue = event.target.value;
+    this.searchText = event.target.value;
   }
 
 }
